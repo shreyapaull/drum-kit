@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    background-color:  rgb(40, 49, 73);;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    text-shadow: rgb(218, 4, 99) 3px 0px;;
+}
+.set{
+    margin: 10% auto;
+}
+.drum{
+    /* text-align: center; */
+    /* font-size: 4rem;
+    background-color: white;
+    color: rgb(218, 4, 99);
+    text-shadow: rgb(219, 237, 243) 3px 0px; */
+    width: 150px;  /* Fixed width */
+    height: 150px;  /* Fixed height */
+    font-size: 4rem;  /* Adjusted font size */
+    color: #FF1493;
+    background-color: white;
+    color:rgb(218, 4, 99); ;
+    border: 1px solid rgb(64, 75, 105);
+    border-width: 10px;
+    border-radius: 20px;
+    margin: 10px;
+    box-sizing: border-box;  /* Ensures padding and border are included in the width/height */
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    display: inline-block;
+
+}
+.w {
+    background-image: url("images/tom1.png");
+  }
+  
+  .a {
+    background-image: url("images/tom2.png");
+  }
+  
+  .s {
+    background-image: url("images/tom3.png");
+  }
+  
+  .d {
+    background-image: url("images/tom4.png");
+  }
+  .j {
+    background-image: url("images/crash.png");
+  }
+  .k {
+    background-image: url("images/kick.png");
+  }
+  .l {
+    background-image: url("images/snare.png");
+  }
+  button.drum:hover {
+    background-color: #ffc1f6;
+    color: white;
+    cursor: pointer;
+    background-blend-mode: multiply; /* Darkens the image when hovered */
+}
